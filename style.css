@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main > h1{
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.main> h1 span{
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    background: #111;
+
+}
+
+.main> h1 span img{
+    height: 40px;
+    transition: 0.3s ease;
+}
+
+
+.main> #endec-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222;
+    padding: 8px;
+    width: 20%;
+    margin: 35px 0;
+    border-radius: 10px;
+}
+
+.main> #endec-div h3{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px 12px;
+    transition: 0.1s ease;
+}
+
+#endec-div h3 span{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#endec-div h3 span img{
+    height: 20px;
+    width: 20px;
+}
+
+
+#encryption{
+    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    /* display: none; */
+}
+
+#encryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 13px;
+}
+
+#encryption textarea{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+    margin-bottom: 50px;
+
+}
+
+#encryption input{
+    width: 100%;
+    margin-bottom: 50px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    /* it us used to show border none on select the div */
+    outline: none;   
+    background-color: #1c1c1c;
+}
+#encryption button{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+    background-color: #1c1c1c;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#encryption button span{
+    display: flex;
+    margin-right: 10px;
+}
+
+#encryption button img{
+    height: 20px;
+}
+
+/* decryption */
+#decryption{
+    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    display: none;
+}
+
+#decryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 13px;
+}
+
+#decryption textarea{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+    margin-bottom: 50px;
+
+}
+
+#decryption input{
+    width: 100%;
+    margin-bottom: 50px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    /* it us used to show border none on select the div */
+    outline: none;   
+    background-color: #1c1c1c;
+}
+#decryption button{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+    background-color: #1c1c1c;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#decryption button span{
+    display: flex;
+    margin-right: 10px;
+}
+
+#decryption button img{
+    height: 20px;
+}
+
+#result{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #1c1c1c;
+    border: 1px solid  #343434;
+    width: 35%;
+    display: none;
+    margin-top: 40px;
+}

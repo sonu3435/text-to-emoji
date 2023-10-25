@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <h1>Text <span><img src="./assets/icons8-arrow-50.png" alt=""></span>Emoji</h1>
+        <div id="endec-div">
+            <h3 id="enc-btn"><span><img src="./assets/lock.png" alt=""></span>Encrypt Text</h3>
+            <h3 id="dec-btn"><span><img src="./assets/lock.png" alt=""></span>Decrypt Text</h3>
+        </div>
+
+        <!-- encryption conatainer -->
+        <div id="encryption">
+            <h5>1. Type a Message</h5>
+            <textarea placeholder="Write here" name="" id="txtmsg" cols="30" rows="10"></textarea>
+            <h5>2. Set a Password</h5>
+            <input type="password" id="password">
+            <button id="encrypt-btn"><span><img src="./assets/lock.png" alt=""></span>Encrypt</button>
+        </div>
+
+        <!-- decryption container -->
+        <div id="decryption">
+            <h5>1. Paste encrypted Emojis</h5>
+            <textarea placeholder="Write here" name="" id="emojimsg" cols="30" rows="10"></textarea>
+            <h5>2. Type a Password</h5>
+            <input type="password" id="finalpassword">
+            <button id="decrypt-btn"><span><img src="./assets/lock.png" alt=""></span>Decrypt</button>
+        </div>
+
+        <!-- result section -->
+        <div id="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
